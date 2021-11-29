@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+   background-image:url(light.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+ 
+}
+body.bodys{
+    background-image:url(sunny.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.change{
+    padding: 15px;
+    margin: 10px;
+    font-size: 1.2em;
+    border-radius: 1em;
+    color: white;
+    background-color: tomato;
+    border: solid 4px black;
+}
+.change.pop{
+    background-color: blue;
+}
+.lights{
+    width: 12em ;
+    height: 25em;
+    background-color: rgba(0, 0, 0, 0.657);
+    position: absolute;
+    left: 40em;
+    top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border-radius: 5%;
+    border: solid rgb(226, 183, 183) 4px;
+}
+.bulb{
+    position: relative;
+    width: 5em;
+    height: 5em;
+    background-color: tomato;
+    border-radius: 50%;
+    
+
+}
+.b1{
+    background-color: red;
+    animation: b1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: solid 5px red ;
+    
+}
+.b1.on{
+    border: solid 0.5px red;
+    box-shadow: 2px 0px 30px 15px red;
+    
+
+}
+.b2{
+    background-color: yellow;
+    animation: b2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-color: yellow;
+    border: solid 5px yellow;
+      
+}
+.b2.on{
+    border: solid 0.5px yellow;
+    box-shadow: 2px 0px 30px 15px yellow;
+    
+    
+
+}
+.b3{
+    background-color: rgb(44, 211, 44);
+    animation: b3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: solid 5px rgb(44, 211, 44);
+    
+}
+.b3.on{
+    border: solid 0.5px rgb(44, 211, 44);
+    box-shadow: 2px 0px 30px 15px rgb(44, 211, 44);
+    
+
+}
+.stand{
+    height: 20em;
+    width:2.5em ;
+    background-color:rgba(0, 0, 0, 0.794);
+    position: absolute;
+    left: 44.8em;
+    top: 29em;
+    border: solid rgb(226, 183, 183) 4px;
+}
+.base{
+    height: 3em;
+    width:13em;
+    background-color:black;
+    position: absolute;
+    left: 39.5em;
+    top: 47em;
+    border-radius: 40% 40% 0 0 ;
+    border: solid rgb(226, 183, 183) 4px;
+    
+}
+/* @keyframes b1{
+    0%{
+        background-color: white;
+    }
+    50% {
+        background-color: white;
+    }
+    100% {
+        background-color: red;
+    }
+} */
+/* @keyframes b2 {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    100% {
+        background-color:yellow;
+    }
+}
+@keyframes b3 {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    100% {
+        background-color:green;
+    }
+}
+
+
+
+
+
+
+
+ */
+
+
+/* .box{
+    width: 5em;
+    height: 5em;
+    border-radius: 70%;
+    background-color: yellow;
+    animation: change 1s linear 0.6s infinite;
+    animation-timing-function: cubic-bezier(0.69, 0.1, 1, 0.1);
+}
+.boxes{
+    display: flex;
+    gap: 2em;
+}
+@keyframes change{
+    0%{
+        background-color: pink;
+    }
+     50% {
+         background-color: blue;
+     }
+      100% {
+          background-color: green;
+      }
+      
+} */
